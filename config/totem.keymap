@@ -37,6 +37,10 @@
     quick-tap-ms = <150>;
 };
 
+&mo { 
+    locking; 
+}; 
+ 
 / {
     behaviors {
         hm: homerow_mods {
