@@ -45,7 +45,6 @@
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
@@ -56,7 +55,6 @@
 
         hml: HMLeft {
             compatible = "zmk,behavior-hold-tap";
-            label = "Homerow mods Left";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -70,7 +68,6 @@
 
         hmr: HMRight {
             compatible = "zmk,behavior-hold-tap";
-            label = "Homerow mods Right";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -106,7 +103,7 @@
         compatible = "zmk,keymap";
 
         Base {
-            label = "Base";
+            display-name = "Base";
             bindings = <
                 &kp Q            &kp W        &kp E        &kp R          &kp T        &kp Y    &kp U         &kp I         &kp O        &kp P
                 &hml LEFT_GUI A  &hml LALT S  &hm LCTRL D  &hml LSHIFT F  &kp G        &kp H    &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L  &hmr RGUI SEMICOLON
@@ -116,7 +113,7 @@
         };
 
         Nav {
-            label = "Nav";
+            display-name = "Nav";
             bindings = <
               &kp GRAVE       &kp HOME     &kp UP_ARROW  &kp END    &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
               &kp LEFT_SHIFT  &kp LEFT     &kp DOWN      &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
@@ -126,7 +123,7 @@
         };
 
         Sym {
-            label = "Sym";
+            display-name = "Sym";
             bindings = <
         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp N7     &kp N8  &kp N9  &kp N0
         &trans        &trans        &trans        &trans        &trans          &trans        &trans     &trans  &trans  &trans
@@ -136,7 +133,7 @@
         };
 
         Fun {
-            label = "Fun";
+            display-name = "Fun";
             bindings = <
         &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
         &trans  &trans  &trans  &trans  &to 5     &trans  &trans  &trans  &trans  &kp F11
@@ -146,7 +143,7 @@
         };
 
         Button {
-            label = "Button";
+            display-name = "Button";
             bindings = <
              &bt BT_CLR         &trans    &trans     &trans      &bt BT_SEL 0    &kp C_VOLUME_UP    &msc SCRL_UP      &mmv MOVE_UP    &msc SCRL_DOWN   &trans
              &kp LGUI           &kp LALT  &kp LCTRL  &mkp LCLK   &bt BT_SEL 1    &kp C_VOLUME_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp RGUI
@@ -163,7 +160,7 @@
                         &kp LCTRL  &kp LEFT_ALT  &trans    &trans  &trans  &trans
             >;
 
-            label = "Gaming";
+            display-name = "Gaming";
         };
 
         Gaming+ {
@@ -174,7 +171,7 @@
                                      &kp J         &kp I         &kp M           &trans  &trans  &trans
             >;
 
-            label = "Gaming+";
+            display-name = "Gaming+";
         };
     };
 };
