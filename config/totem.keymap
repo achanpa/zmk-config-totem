@@ -88,7 +88,7 @@
             bindings
                  = <&macro_press &kp LCTRL>
                  , <&macro_tap &kp DOWN &kp UP_ARROW &kp LEFT &kp UP_ARROW &kp RIGHT &kp RIGHT>
-                 , <&macro release &kp LCTRL>
+                 , <&macro_release &kp LCTRL>
                  ;
         };
         hd2ol: hd2ol {
@@ -99,7 +99,7 @@
             bindings
                  = <&macro_press &kp LCTRL>
                  , <&macro_tap &kp RIGHT &kp DOWN &kp UP_ARROW &kp RIGHT &kp DOWN>
-                 , <&macro release &kp LCTRL>
+                 , <&macro_release &kp LCTRL>
                  ;
         };
         hd2r: hd2r {
@@ -110,7 +110,7 @@
             bindings
                  = <&macro_press &kp LCTRL>
                  , <&macro_tap &kp UP &kp DOWN &kp RIGHT &kp LEFT &kp UP_ARROW>
-                 , <&macro release &kp LCTRL>
+                 , <&macro_release &kp LCTRL>
                  ;
         };
         hd2ab: hd2ab {
@@ -121,7 +121,7 @@
             bindings
                  = <&macro_press &kp LCTRL>
                  , <&macro_tap &kp UP &kp RIGHT &kp DOWN &kp DOWN &kp DOWN>
-                 , <&macro release &kp LCTRL>
+                 , <&macro_release &kp LCTRL>
                  ;
         };
         hd2ea: hd2ea {
@@ -132,7 +132,7 @@
             bindings
                  = <&macro_press &kp LCTRL>
                  , <&macro_tap &kp UP &kp RIGHT &kp DOWN &kp RIGHT>
-                 , <&macro release &kp LCTRL>
+                 , <&macro_release &kp LCTRL>
                  ;
         };
         hd2qs: hd2qs {
@@ -143,7 +143,7 @@
             bindings
                  = <&macro_press &kp LCTRL>
                  , <&macro_tap &kp DOWN &kp DOWN &kp UP_ARROW &kp LEFT &kp RIGHT>
-                 , <&macro release &kp LCTRL>
+                 , <&macro_release &kp LCTRL>
                  ;
         };
         hd2sg: hd2sg {
@@ -154,7 +154,7 @@
             bindings
                  = <&macro_press &kp LCTRL>
                  , <&macro_tap &kp DOWN &kp UP_ARROW &kp LEFT &kp RIGHT &kp LEFT &kp RIGHT>
-                 , <&macro release &kp LCTRL>
+                 , <&macro_release &kp LCTRL>
                  ;
         };
         hd2ms: hd2ms {
@@ -165,7 +165,7 @@
             bindings
                  = <&macro_press &kp LCTRL>
                  , <&macro_tap &kp DOWN &kp UP_ARROW &kp RIGHT &kp RIGHT &kp DOWN>
-                 , <&macro release &kp LCTRL>
+                 , <&macro_release &kp LCTRL>
                  ;
         };
     };
