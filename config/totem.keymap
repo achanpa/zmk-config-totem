@@ -83,13 +83,13 @@
         hd2gd: hd2gd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <50>;
+            wait-ms = <80>;
             tap-ms = <40>;
             bindings =
                 <&macro_press>,
                 <&kp LCTRL>,
                 <&macro_tap>,
-                <&kp DOWN &kp UP_ARROW &kp LEFT &kp UP_ARROW &kp RIGHT &kp RIGHT>,
+                <&kp DOWN &kp UP &kp LEFT &kp UP &kp RIGHT &kp RIGHT>,
                 <&macro_release>,
                 <&kp LCTRL>;
         };
@@ -97,13 +97,13 @@
         hd2ol: hd2ol {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <50>;
+            wait-ms = <80>;
             tap-ms = <40>;
             bindings =
                 <&macro_press>,
                 <&kp LCTRL>,
                 <&macro_tap>,
-                <&kp RIGHT &kp DOWN &kp UP_ARROW &kp RIGHT &kp DOWN>,
+                <&kp RIGHT &kp DOWN &kp UP &kp RIGHT &kp DOWN>,
                 <&macro_release>,
                 <&kp LCTRL>;
         };
@@ -111,13 +111,13 @@
         hd2r: hd2r {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <50>;
+            wait-ms = <80>;
             tap-ms = <40>;
             bindings =
                 <&macro_press>,
                 <&kp LCTRL>,
                 <&macro_tap>,
-                <&kp UP &kp DOWN &kp RIGHT &kp LEFT &kp UP_ARROW>,
+                <&kp UP &kp DOWN &kp RIGHT &kp LEFT &kp UP>,
                 <&macro_release>,
                 <&kp LCTRL>;
         };
@@ -125,7 +125,7 @@
         hd2ab: hd2ab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <50>;
+            wait-ms = <80>;
             tap-ms = <40>;
             bindings =
                 <&macro_press>,
@@ -139,7 +139,7 @@
         hd2ea: hd2ea {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <50>;
+            wait-ms = <80>;
             tap-ms = <40>;
             bindings =
                 <&macro_press>,
@@ -153,13 +153,13 @@
         hd2qs: hd2qs {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <50>;
+            wait-ms = <80>;
             tap-ms = <40>;
             bindings =
                 <&macro_press>,
                 <&kp LCTRL>,
                 <&macro_tap>,
-                <&kp DOWN &kp DOWN &kp UP_ARROW &kp LEFT &kp RIGHT>,
+                <&kp DOWN &kp DOWN &kp UP &kp LEFT &kp RIGHT>,
                 <&macro_release>,
                 <&kp LCTRL>;
         };
@@ -167,13 +167,13 @@
         hd2sg: hd2sg {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <50>;
+            wait-ms = <80>;
             tap-ms = <40>;
             bindings =
                 <&macro_press>,
                 <&kp LCTRL>,
                 <&macro_tap>,
-                <&kp DOWN &kp UP_ARROW &kp LEFT &kp RIGHT &kp LEFT &kp RIGHT>,
+                <&kp DOWN &kp UP &kp LEFT &kp RIGHT &kp LEFT &kp RIGHT>,
                 <&macro_release>,
                 <&kp LCTRL>;
         };
@@ -181,13 +181,13 @@
         hd2ms: hd2ms {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <50>;
+            wait-ms = <80>;
             tap-ms = <40>;
             bindings =
                 <&macro_press>,
                 <&kp LCTRL>,
                 <&macro_tap>,
-                <&kp DOWN &kp UP_ARROW &kp RIGHT &kp RIGHT &kp DOWN>,
+                <&kp DOWN &kp UP &kp RIGHT &kp RIGHT &kp DOWN>,
                 <&macro_release>,
                 <&kp LCTRL>;
         };
@@ -228,7 +228,7 @@
         Nav {
             display-name = "Nav";
             bindings = <
-              &kp GRAVE       &kp HOME     &kp UP_ARROW  &kp END    &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
+              &kp GRAVE       &kp HOME     &kp UP  &kp END    &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
               &kp LEFT_SHIFT  &kp LEFT     &kp DOWN      &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
 &kp LEFT_ALT  &trans          &kp PAGE_UP  &trans        &kp PG_DN  &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp KP_SLASH
                                            &trans        &trans     &trans      &trans    &trans        &kp NUMBER_0
